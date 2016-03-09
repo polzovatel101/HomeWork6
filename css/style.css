@@ -28,6 +28,9 @@ header{
 .contact_menu{
     height: 40px;
     float: left;
+    padding-top: 3px;
+    padding-left: 6px;
+
 }
 
 .contacts{
@@ -49,7 +52,7 @@ header{
     width: 496px;
     height: 27px;
     float: left;
-    margin: 7px 0 7px 14px;
+    margin: 7px 0 7px 8px;
     border-radius: 3px;
     box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
 }
@@ -263,7 +266,7 @@ nav ul a{
     width: 526px;
     height: 626px;
     float: left;
-    padding: 22px;
+    padding: 10px 10px 10px 21px;
     margin-left: 9px;
     background: linear-gradient(#e5e7e8, #93a7b0);
     border-radius: 3px;
@@ -318,7 +321,7 @@ figcaption a p{
 .brand_head{
     height: 27px;
     width: 183px;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
     padding-left: 3px;
     border-radius: 15px;
     text-transform: uppercase;
@@ -337,7 +340,7 @@ figcaption a p{
 .brand_list{
     height: 27px;
     width: 135px;
-    margin: 5px 0 11px 14px;
+    margin: 5px 0 8px 14px;
     padding: 0 0 3px 3px;
     border-radius: 15px;
     text-transform: uppercase;
@@ -357,11 +360,16 @@ figcaption a p{
 }
 
 .brand_item{
-    margin: 3px 0 0 24px;
+    margin-left: 24px;
+    margin-bottom: 4px;
     font-size: 12px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
     color: rgb(70, 89, 97);
     line-height: 1.964;
+}
+
+.brand_buttom{
+    margin-top: 8px;
 }
 
 .brand_buttom input{
@@ -378,7 +386,7 @@ figcaption a p{
 .logo_line{
     width: 690px;
     height: 30px;
-    margin: 35px 100px 25px;
+    margin: 40px 117px 20px;
 }
 
 .brand_logo{
@@ -392,14 +400,14 @@ footer{
 }
 
 .footer_menu{
-    margin: 5px 290px;
+    margin: 20px 290px;
 }
 
 footer li{
     float: left;
     width: auto;
-    padding-right: 10px;
-    margin: 14px 5px 0;
+    padding-right: 7px;
+    margin: 6px 0 0 16px;
 }
 
 footer li:hover a{
